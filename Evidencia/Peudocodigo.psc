@@ -4,22 +4,22 @@ Proceso Gestor_de_Notas
 	
     Mientras Verdadero Hacer
 
-        Escribir "====== Gestor de Notas Acad�micas ======"
+        Escribir "====== Gestor de Notas Academicas ======"
         Escribir "1. Registrar nuevo curso"
         Escribir "2. Mostrar todos los cursos y notas"
         Escribir "3. Calcular promedio general"
         Escribir "4. Contar cursos aprobados y reprobados"
-        Escribir "5. Buscar curso por nombre (b�squeda lineal)"
+        Escribir "5. Buscar curso por nombre (busqueda lineal)"
         Escribir "6. Actualizar nota de un curso"
         Escribir "7. Eliminar un curso"
         Escribir "8. Ordenar cursos por nota (burbuja)"
-        Escribir "9. Ordenar cursos por nombre (inserci�n)"
-        Escribir "10. Buscar curso por nombre (b�squeda binaria)"
-        Escribir "11. Simular cola de solicitudes de revisi�n"
+        Escribir "9. Ordenar cursos por nombre (insercion)"
+        Escribir "10. Buscar curso por nombre (busqueda binaria)"
+        Escribir "11. Simular cola de solicitudes de revision"
         Escribir "12. Mostrar historial de cambios (pila)"
         Escribir "13. Salir"
         Escribir ""
-        Escribir "Seleccione una opci�n:"
+        Escribir "Seleccione una opcion:"
         Leer opcion
 		
         Segun opcion Hacer
@@ -42,18 +42,19 @@ Proceso Gestor_de_Notas
             9:
                 Escribir "Ordenando cursos por nombre..."
             10:
-                Escribir "Buscando curso por nombre (b�squeda binaria)..."
+                Escribir "Buscando curso por nombre (busqueda binaria)..."
             11:
-                Escribir "Simulando cola de revisi�n..."
+                Escribir "Simulando cola de revision..."
             12:
                 Escribir "Mostrando historial de cambios..."
             13:
-                Escribir "Gracias por usar el Gestor de Notas Acad�micas."
+                Escribir "Gracias por usar el Gestor de Notas Academicas."
                 
             DeOtroModo:
-                Escribir "Opci�n no v�lida, intente de nuevo."
+                Escribir "Opcion no valida, intente de nuevo."
         FinSegun
 		
         Escribir ""
     FinMientras
 FinProceso
+
